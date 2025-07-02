@@ -73,7 +73,7 @@ PRIORITY: HIGH - критично для быстрого доступа
 | Оглавление | `[subject]_сontents.[filetype]` | ⚡ | Структура курса |
 | Индекс (если имеется) | `[subject]_index.[filetype]` | 🚀 | Быстрый поиск терминов |
 
-### 🟢 Priority 4 - Subject Modules
+### 🟢 Priority 4 - Subject Files (GitHub Integration)
 | Модуль | Путь | ERT | Специализация |
 |--------|------|-----|---------------|
 | Зависимости | `/[subject]/[subject]_dependencies.md` | 🚀 | Связи между темами |
@@ -84,17 +84,17 @@ PRIORITY: HIGH - критично для быстрого доступа
 
 ## 🌐 EXTERNAL INTEGRATIONS
 
-### 🔵 Priority 2-3 - Connected Services
+### 🔵 Priority 1-3 - Connected Services
 | Сервис | Доступ | ERT | Использование |
 |--------|--------|-----|---------------|
-| Google Drive | `search_drive()` | 🔄 | Документы пользователя |
-| GitHub | Project integration | 🔄 | Версионирование, код |
+| Google Drive | Project integration | ⚡/🚀/🔄 | Subject Content/Files |
+| GitHub | Project integration | ⚡/🚀/🔄 | Core/System/Subject Content/Files |
 | Web Search | `web_search()` | 🐌 | Современный контекст |
 
 ### ⚫ Priority 5 - Fallback Sources
 | Источник | Когда использовать | ERT |
 |----------|-------------------|-----|
-| General Knowledge | Когда специфичные источники недоступны | ⚡ |
+| General knowledge | Когда специфичные источники недоступны | ⚡ |
 | Web Search | Для современных применений, актуальных данных | 🐌 |
 | Примеры из опыта | Когда нужны аналогии для объяснения | ⚡ |
 | Альтернативные объяснения | При проблемах понимания | 🚀 |
@@ -197,7 +197,7 @@ resource_map.md [ТЫ ЗДЕСЬ]
     ├─→ Priority 1: Core files (instant)
     ├─→ Priority 2: System files (fast)
     ├─→ Priority 3: Subject content (normal)
-    ├─→ Priority 4: Subject modules (normal)
+    ├─→ Priority 4: Subject files (normal)
     └─→ Priority 5: Fallbacks (varies)
          ↓
     [Target Resource]
