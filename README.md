@@ -29,32 +29,39 @@
 ```
 educational-agent/
 │
-├── core/                      # Ядро системы
-│   ├── agent_core.md         # Роль, принципы, ограничения
-│   ├── query_patterns.md     # Паттерны обработки запросов
-│   └── resource_map.md       # Карта быстрого доступа
+├── core/                                 # Ядро системы
+│   ├── agent_core.md                    # Роль, принципы, ограничения
+│   ├── query_patterns.md                # Паттерны обработки запросов
+│   └── resource_map.md                  # Карта быстрого доступа
 │
-├── system/                    # Системные функции
-│   ├── progress_tracker.md   # Отслеживание прогресса
-│   ├── problem_solver.md     # Решение проблем
-│   ├── modern_context.md     # Современные применения
-│   ├── prompting_guide.md    # Руководство по промптам
-|   └── subject_modules.md    # Универсальные шаблоны
-│
-├── algebra/                      # Пример предметной области
-│   ├── algebra_dependencies.md  # Связи между темами
-│   ├── algebra_reference.md     # Формулы, определения
-│   └── algebra_study_guide.md   # Методология
+├── system/                               # Системные функции
+│   ├── progress_tracker.md              # Отслеживание прогресса
+│   ├── problem_solver.md                # Решение проблем
+│   ├── modern_context.md                # Современные применения
+│   ├── prompting_guide.md               # Руководство по промптам
+|   └── subject_modules.md               # Универсальные шаблоны
 |
-├── [subject]/                 # Шаблон файловой структуры предмета
-│   ├── [subject]_dependencies.md
-│   ├── [subject]_reference.md
-│   └── [subject]_study_guide.md
+├── project/                              # Работа над проектом
+│   ├── ideas/                            # Нереализованные идеи
+|   |   └── [idea].md                    # Идея для обсуждения
+│   ├── chats/                            # Контекст чатов
+|   |   ├── researches/                   # Исследования агента
+|   |   |   ├── research_***.md          # Результат исследования
+|   |   |   └── sources_***.md           # Иссточники данных исследования
+|   |   └── chat_***.md                  # Полная история чата
+|   └── agent_requirements.md            # Требования к полноценной версии
+|
+├── subjects/                             # Предметные области
+│   ├── python/                           # Пример предметной области
+│   |   ├── python_dependencies.md       # Связи между темами
+│   |   ├── python_reference.md          # Справочник формул, определений
+│   |   └── python_study_guide.md        # Методология предметной области
+|   └── [subject]/                       # Шаблон файловой структуры
+│       ├── [subject]_dependencies.md
+│       ├── [subject]_reference.md
+│       └── [subject]_study_guide.md
 │
-├── README.md                  # Этот файл
-├── agent_requirements.md      # Требования к полноценной версии
-├── compass_artifact.md        # Best practices исследование
-└── compass_sources.pdf        # Источники данных исследования
+└── README.md                            # Этот файл
 ```
 
 ## ⚡ Основные команды
