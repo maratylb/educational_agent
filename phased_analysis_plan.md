@@ -1,6 +1,5 @@
 # Phased Analysis Plan (PAP)
 
-{
 `path`: `educational_agent_phased_analysis_plan.md`,
 `command`: `create`,
 `file_text`: `# План поэтапного анализа системы Educational Agent v0.1
@@ -31,7 +30,7 @@
 
 **Входные данные**:
 
-- SET INSTRUCTIONS
+- set_instructions.md
 - agent_core.md
 - chat_007.md (решения автозапуска)
 
@@ -314,5 +313,3 @@
 ---
 
 *Этот план обеспечивает систематический подход к анализу и улучшению Educational Agent, сохраняя баланс между функциональностью и простотой.*
-`
-}
